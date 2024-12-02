@@ -1,0 +1,56 @@
+/* Tüm öğelerin margin ve padding değerlerini sıfırlıyoruz */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Border-box modelini kullanarak öğelerin boyutlandırılmasını sağlıyoruz */
+}
+
+/* HTML etiketleri için font-family ayarlaması */
+html {
+  font-size: 100%; /* Tarayıcıya göre varsayılan font boyutunu ayarlıyoruz */
+}
+
+/* Başlık etiketlerinin (h1, h2, ...) varsayılan stilini sıfırlıyoruz */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+/* Liste öğelerinin (ul, ol) ve liste elemanlarının (li) varsayılan stilini sıfırlıyoruz */
+ul, ol {
+  list-style: none; /* Liste işaretlerini (bullet) kaldırıyoruz */
+}
+
+/* Linklerin alt çizgisini kaldırıyoruz */
+a {
+  text-decoration: none;
+  color: inherit; /* Bağlantı renklerini miras alıyoruz, bu da bağlantının genel stilini korur */
+}
+
+/* Resimlerin boyutlandırılmasını düzgün yapabilmek için */
+img {
+  max-width: 100%; /* Resimlerin konteynırından taşmasını engelliyoruz */
+  height: auto; /* Yükseklik orantılı olarak ayarlanır */
+}
+
+/* Form elemanlarının margin ve padding değerlerini sıfırlıyoruz */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none; /* Focus olduğunda oluşan mavi kenarlığı kaldırıyoruz */
+}
+
+/* Tablo kenarlıklarını sıfırlıyoruz */
+table {
+  border-collapse: collapse; /* Kenarlıkların birleşmesini sağlıyoruz */
+  width: 100%; /* Tabloyu genişletiyoruz */
+}
+
