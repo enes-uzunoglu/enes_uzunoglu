@@ -1,0 +1,179 @@
+{
+    "tr": {
+        "hero": {
+            "name": "Enes",
+            "surname": "UZUNOĞLU",
+            "whoAmI?": "Ben bir Frontend Geliştiricisiyim",
+            "whatIdo?": "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri geliştirmeyi seviyorum.",
+            "githubLink": "https://github.com/enes-uzunoglu",
+            "linkedinLink": "https://www.linkedin.com/in/enesuzunoglu/"
+        },
+
+        "skills": {
+            "skillsTitle": "Yetenekler",
+            "javascript": "JAVASCRIPT",
+            "react": "REACT",
+            "redux": "REDUX",
+            "node": "NODE",
+            "vsCode": "VS CODE",
+            "figma": "FIGMA"
+        },
+
+        "profile": {
+            "profileTitle": "Profil",
+            "basicInformation": {
+                "basicInformationTitle": "Temel Bilgiler",
+                "dateOfBirth": {
+                    "dateOfBirthTitle": "Doğum Tarihi :",
+                    "dateOfBirth": "06.07.1994"
+                },
+
+                "cityOfResidence": {
+                    "cityOfResidenceTitle": "İkamet Şehri :",
+                    "cityOfResidence": "İstanbul"
+                },
+
+                "educationStatus": {
+                    "educationStatusTitle": "Eğitim Durumu :",
+                    "educationStatus": "Abant İzzet Baysal Üniversitesi / Mimarlık"
+                },
+
+                "preferredRole": {
+                    "preferredRoleTitle": "Tercih Edilen Rol :",
+                    "preferredRole": "Frontend / UI"
+                }
+            },
+
+            "aboutMe": {
+                "aboutMeTitle": "Hakkımda",
+                "aboutMe": "Yaratıcı ve ayrıntılara önem veren bir frontend geliştiricisi olarak, kullanıcı odaklı ve görsel olarak çekici arayüzler tasarlamaya odaklanıyorum. Sorunsuz, sezgisel ve duyarlı tasarımlar oluşturarak erişilebilirlik ve kullanılabilirliği garanti altına alıyorum. Yenilikçi fikirleri kullanıcı ihtiyaçlarını karşılayan ve beklentileri aşan işlevsel ve estetik çözümlere dönüştürmek benim tutkum."
+            }
+        },
+
+        "projects": {
+            "pizzaPizza": {
+                "pizzaPizzaTitle": "Pizza Pizza ↴",
+                "pizzaPizza": "Pizza Pizza, lezzetli bir pizza menüsünü sergilemek için tasarlanmış basit ve eğlenceli bir frontend web projesidir. Site, temiz ve duyarlı bir tasarımın yanı sıra sezgisel bir gezinme yapısı sunar, böylece kullanıcılar pizza seçeneklerini kolayca keşfedebilir. Görsel çekicilik ile işlevselliği bir araya getirerek keyifli bir tarayıcı deneyimi sunmanın mükemmel bir örneğidir.",
+                "IuseIt": {
+                    "javascript": "javascript",
+                    "html": "Html",
+                    "css": "css"
+                }
+            },
+
+            "riTLanguages": {
+                "riTLanguagesTitle": "riTLanguages ↴",
+                "riTLanguages": "riTLanguages, çeşitli dillerin net bir şekilde görüntülenmesini sağlayan basit ve kullanıcı dostu bir web projesidir. Temiz, duyarlı bir arayüz ve kolay gezinme sunarak kullanıcıların dil seçeneklerini rahatça keşfetmesine olanak tanır. İşlevsel tasarımı erişilebilirlikle birleştirerek etkili bir tarama deneyimi sunmanın pratik bir örneğidir.",
+                "IuseIt": {
+                    "react": "react",
+                    "redux": "redux",
+                    "tailwindCss": "tailwind css"
+                }
+            }
+        },
+
+        "footer": {
+            "closingMessage": {
+                "closingMessageTitle": "Bana bir mesaj gönder!",
+                "closingMessage": "Bir sorunuz, öneriniz veya sadece merhaba demek mi istiyorsunuz? Hadi yazın."
+            },
+            "email": "developer.enesuzunoglu@gmail.com",
+            "socialMedia": {
+                "twitter": "https://twitter.com/@ey_jsx",
+                "facebook": "https://www.facebook.com/enes.uzunoglu.14",
+                "instagram": "https://www.instagram.com/eu.jsx/"
+            }
+        }
+    },
+
+    "en": {
+    
+        "me": {
+            "name":"Enes",
+            "surname": "UZUNOĞLU",
+            "whoAmI?": "I am a Fronted Developer",
+            "whatIdo?":"...who likes to craft solid and scalable frontend products with great user experiences.",
+            "githubLink": "https://github.com/enes-uzunoglu",
+            "linkedinLink": "https://www.linkedin.com/in/enesuzunoglu/"
+        },
+
+        "skills": {
+            "skillsTitle":"Skills",
+            "javascript":"JAVASCRIPT",
+            "react":"REACT",
+            "redux":"REDUX",
+            "node":"NODE",
+            "vsCode":"VS CODE",
+            "figma":"FIGMA"
+        },
+
+        "profile": {
+            "profileTitle":"Profile",
+            "basicInformation":{
+                "basicInformationTitle":"Basic Information",
+                "dateOfBirth":{
+                    "dateOfBirthTitle":"Date Of Birth :",
+                    "dateOfBirth":"06.07.1994"
+                },
+
+                "cityOfResidence":{
+                    "cityOfResidenceTitle":"City Of Residence :",
+                    "cityOfResidence":"İstanbul"
+                },
+
+                "educationStatus":{
+                    "educationStatusTitle":"Education Status :",
+                    "educationStatus":"Abant İzzet Baysal University / Architecture"
+                },
+
+                "preferredRole":{
+                    "preferredRoleTitle":"Preferred role :",
+                    "preferredRole":"Fronted / UI"
+                }
+            },
+
+            "aboutMe":{
+                "aboutMeTitle":"About Me",
+                "aboutMe":"Creative and detail-oriented front-end developer with a strong focus on designing visually appealing, user-centric interfaces that enhance the digital experience. Skilled in crafting seamless, intuitive, and responsive designs, ensuring accessibility and usability across all platforms. Passionate about transforming innovative ideas into functional and aesthetically pleasing solutions that meet user needs and exceed expectations."
+            }
+        },
+
+        "projects": {
+
+            "pizzaPizza":{
+                "pizzaPizzaTitle":"Pizza Pizza ↴",
+                "pizzaPizza":"Pizza Pizza is a simple and engaging front-end web project designed to showcase a delicious menu of pizzas. The site features a clean, responsive layout with intuitive navigation, allowing users to explore pizza options effortlessly. It's a perfect example of combining visual appeal with functionality to create an enjoyable browsing experience.",
+                "IuseIt":{
+                    "javascript":"javascript",
+                    "html":"Html",
+                    "css":"css"
+                }
+            },
+
+            "riTLanguages": {
+                "riTLanguagesTitle": "riTLanguages ↴",
+                "riTLanguages": "riTLanguages is a straightforward and user-friendly web project designed to provide a clear overview of various languages. With a clean, responsive interface and simple navigation, users can easily explore language options. It's a practical example of merging functional design with accessibility to deliver an effective browsing experience.",
+                "IuseIt":{
+                    "react":"react",
+                    "redux":"redux",
+                    "tailwindCss":"tailwind css"
+                }
+            }
+        },
+
+        "footer":{
+            "closingMessage":{
+                "closingMessageTitle":"Send me a message!",
+                "closingMessage":"Got a question or proposal, or just want to say hello? Go ahead."
+            },
+            "email":"developer.enesuzunoglu@gmail.com",
+            "socialMedia":{
+                "twitter":"https://twitter.com/@ey_jsx",
+                "facebook":"https://www.facebook.com/enes.uzunoglu.14",
+                "instagram":"https://www.instagram.com/eu.jsx/"
+            }
+        }
+    }
+    
+}
+  
