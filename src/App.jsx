@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import "./App.css";
 import "./index.css";
 import { Hero, Footer, Profile, Projects, Skills } from "./components";
+import { useLanguage } from "./contextApi/contextLanguage";
+import { useTheme } from "./contextApi/ContextTheme";
 import { useDispatch, useSelector } from "react-redux";
 import { getData, saveData } from "./store/actions";
 
@@ -10,37 +12,51 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getData());
-  }, []); // buton bagımlılıgı gelebılır
-  // buraya bi if gelebilir
-  const data = useSelector((state) => state.dataApiReducer.data); // useEffect içine yazılmaz - loop oluşturur.
-  // console.log(navigator.language); // bu kontrol ile koşulu net öğren
-  const languagesSwitch = navigator.language; // ÇOK HAVALI
+  }, [dispatch]);
+  const dataCopy = useSelector((state) => state.dataApiReducer.data);
+  // console.log(data[0]?.tr);
+
+  const { theme, toggleTheme } = useTheme();
+  const { language, switchLanguage } = useLanguage();
+
   useEffect(() => {
-    const CvDataTr = data[0]?.tr;
-    const CvDataEn = data[0]?.en;
-    languagesSwitch === "tr" // ÇOK HAVALI
+    const CvDataTr = dataCopy[0]?.tr;
+    const CvDataEn = dataCopy[0]?.en;
+    language === "tr"
       ? dispatch(saveData(CvDataTr))
       : dispatch(saveData(CvDataEn));
-  }, [data]);
+  }, [dataCopy, language]); // dataCopy eklemek fayda etti.
 
-  const cvData = useSelector((state) => state.appReducer.cvData);
-
-  useEffect(() => {
-    console.log(cvData);
-  }, [cvData]);
-
+  const cvDataCopy = useSelector((state) => state.appReducer.cvData);
+  const appData = cvDataCopy?.app;
+  console.log(theme);
   return (
-    <div className="flex justify-center">
-      {cvData ? (
+    <div
+      className={`flex flex-col items-center relative ${
+        theme === "dark" ? "bg-[#3730A3] text-white" : "bg-white text-gray-800"
+      }`}
+    >
+      {" "}
+      {/**samalamaya dikkat */}
+      {cvDataCopy ? (
         <>
-          <button onClick={switchLanguage}>
-            {language === "tr" ? "TÜRKÇE'YE GEÇ" : "SWITCH TO ENGLISH"}
-          </button>
-          <Hero cvData={cvData} />
-          <Skills cvData={cvData} />
-          <Profile cvData={cvData} />
-          <Projects cvData={cvData} />
-          <Footer cvData={cvData} />
+          {" "}
+          {/**samalamaya dikkat */}
+          <div className="w-[955px] text-[12px] font-medium text-[#FFFFFF] flex justify-end mr-[235px] absolute z-20 top-[95px] gap-[12px]">
+            <button onClick={() => switchLanguage()}>
+              {language === "tr"
+                ? appData?.switchLanguage
+                : appData?.switchLanguage}
+            </button>
+            <button onClick={() => toggleTheme()}>
+              {theme === "light" ? appData?.darkMode : appData?.lightMode}
+            </button>
+          </div>
+          <Hero cvDataCopy={cvDataCopy} />
+          <Skills cvDataCopy={cvDataCopy} />
+          <Profile cvDataCopy={cvDataCopy} />
+          <Projects cvDataCopy={cvDataCopy} />
+          <Footer cvDataCopy={cvDataCopy} />{" "}
         </>
       ) : (
         <p>Loading...</p>

@@ -1,0 +1,24 @@
+/* styles.css */
+
+@media (max-width: 640px) {
+  /* Küçük ekranlar için genel düzen */
+  .text-[12px] {
+    font-size: 10px; /* Font boyutunu küçült */
+  }
+
+  .mr-[235px] {
+    margin-right: 16px; /* Sağ marjı küçült */
+  }
+
+  .w-[955px] {
+    width: 100%; /* Tam genişlik yap */
+  }
+
+  .gap-[12px] {
+    gap: 8px; /* Butonlar arasındaki boşluğu azalt */
+  }
+
+  .absolute {
+    top: 75px; /* Üst boşluğu biraz azalt */
+  }
+}

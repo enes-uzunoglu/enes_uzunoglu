@@ -1,10 +1,11 @@
 import React from "react";
 import { hero, github, linkedin } from "../../assets"; // dosya yolu çalışmalısın
+import "./Hero.css";
 
 export default function Hero(props) {
-  const { cvData } = props;
-  // console.log(cvData);
-  const heroData = cvData?.hero;
+  const { cvDataCopy } = props;
+  // console.log(cvDataCopy);
+  const heroData = cvDataCopy?.hero;
   // console.log(heroData?.whoAmI);
   return (
     <div className="w-full max-w-[1440px] h-auto aspect-[1440/671] bg-[#4731D3] flex justify-center relative">
@@ -14,7 +15,7 @@ export default function Hero(props) {
             {heroData?.name} {heroData?.surname}
           </p>
         </div>
-        <div className="flex items-end gap-10">
+        <div className="flex items-end">
           <div className="flex flex-col gap-[25px]">
             <p className="text-[55px] font-medium text-[#CBF281] leading-[60px]">
               {heroData?.whoAmI}
