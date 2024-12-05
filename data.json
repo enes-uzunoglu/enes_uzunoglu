@@ -1,11 +1,19 @@
-{
+[{
     "tr": {
+        "app": {
+            "switchLanguage":"SWITCH TO ENGLISH",
+            "darkMode": "KOYU MOD",
+            "lightMode":"AÇIK MOD"
+        },
+
         "hero": {
             "name": "Enes",
             "surname": "UZUNOĞLU",
-            "whoAmI?": "Ben bir Frontend Geliştiricisiyim",
-            "whatIdo?": "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri geliştirmeyi seviyorum.",
+            "whoAmI": "Ben bir Frontend Geliştiricisiyim",
+            "whatIdo": "...harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir frontend ürünleri geliştirmeyi seviyorum.",
+            "github":"Github",
             "githubLink": "https://github.com/enes-uzunoglu",
+            "linkedin":"Linkedin",
             "linkedinLink": "https://www.linkedin.com/in/enesuzunoglu/"
         },
 
@@ -75,7 +83,7 @@
         "footer": {
             "closingMessage": {
                 "closingMessageTitle": "Bana bir mesaj gönder!",
-                "closingMessage": "Bir sorunuz, öneriniz veya sadece merhaba demek mi istiyorsunuz? Hadi yazın."
+                "closingMessage": "Bir sorunuz, öneriniz veya sadece merhaba demek mi istiyorsunuz Hadi yazın."
             },
             "email": "developer.enesuzunoglu@gmail.com",
             "socialMedia": {
@@ -87,13 +95,20 @@
     },
 
     "en": {
-    
-        "me": {
+        "app": {
+            "switchLanguage":"TÜRKÇE'YE GEÇ",
+            "darkMode": "DARK MODE",
+            "lightMode":"LİGHT MODE"
+        },
+
+        "hero": {
             "name":"Enes",
             "surname": "UZUNOĞLU",
-            "whoAmI?": "I am a Fronted Developer",
-            "whatIdo?":"...who likes to craft solid and scalable frontend products with great user experiences.",
+            "whoAmI": "I am a Fronted Developer",
+            "whatIdo":"...who likes to craft solid and scalable frontend products with great user experiences.",
+            "github":"Github",
             "githubLink": "https://github.com/enes-uzunoglu",
+            "linkedin":"Linkedin",
             "linkedinLink": "https://www.linkedin.com/in/enesuzunoglu/"
         },
 
@@ -176,4 +191,4 @@
     }
     
 }
-  
+  ]
