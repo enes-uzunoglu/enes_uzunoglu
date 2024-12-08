@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import "./index.css";
 import { Hero, Footer, Profile, Projects, Skills } from "./components";
-import { useLanguage } from "./contextApi/contextLanguage";
+import { useLanguage } from "./contextApi/ContextLanguage";
 import { useTheme } from "./contextApi/ContextTheme";
 import { useDispatch, useSelector } from "react-redux";
 import { getData, saveData } from "./store/actions";
