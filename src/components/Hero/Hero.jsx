@@ -1,6 +1,5 @@
 import React from "react";
 import { hero, github, linkedin } from "../../assets"; // dosya yolu çalışmalısın
-import "./Hero.css";
 
 export default function Hero(props) {
   const { cvDataCopy } = props;

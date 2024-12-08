@@ -42,7 +42,7 @@ function App() {
         <>
           {" "}
           {/**samalamaya dikkat */}
-          <div className="w-[955px] text-[12px] font-medium text-[#FFFFFF] flex justify-end mr-[235px] absolute z-20 top-[95px] gap-[12px]">
+          <div className="w-[955px] text-[12px] text-end font-medium text-[#FFFFFF] flex justify-end mr-[235px] absolute z-20 top-[95px] gap-[12px]">
             <button onClick={() => switchLanguage()}>
               {language === "tr"
                 ? appData?.switchLanguage
